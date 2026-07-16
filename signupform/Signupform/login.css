@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#form{
+    box-shadow: 2px 3px 12px black;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 5%;
+    padding: 30px;
+}
+
+
+#form h1{
+    color: rgb(0, 68, 255);
+    text-align: center;
+}
+
+#form label{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+
+#form input{
+    font-size: 18px;
+    padding: 9px;
+    border-radius: 10px;
+    border: 0.6px solid grey;
+}
+#check{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+#forgot{
+    margin-top: 10px;
+    text-align: right;
+}

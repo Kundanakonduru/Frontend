@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Signup</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    
+    <form id="Myform">
+        <h1 id="signup">Signup Form</h1>
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter Full Name:" required>
+        <label>Email:</label>
+        <input type="email" placeholder="Enter Email:" required>
+        <label>Phone Number:</label>
+        <input type="tel" placeholder="Enter Phone Number:" required>
+        <label>Password:</label>
+         <input type="password" placeholder="Enter Password:" required>
+        
+        <div id="gender">
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+        </div>
+        <div id="check">
+            <input type="checkbox"><span>I agree to the terms and conditions</span>
+        </div>
+        
+        <div id="Button">
+            <button type="submit">Signup</button>
+        </div>
+        <div id="Button">
+            <button type="botton" onclick="window.location.href='login.html'">Already have an account? Login</button>
+        </div>
+    </form>
+    
+</body>
+</html>
